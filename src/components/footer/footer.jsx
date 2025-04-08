@@ -10,10 +10,7 @@ export default function Footer() {
               <li className="home-list">
                 <Link
                   to="/"
-                  className={({ isActive }) => {
-                    ``;
-                  }}
-                >
+                  className="home-link">
                   Home
                 </Link>
               </li>
@@ -22,6 +19,7 @@ export default function Footer() {
                   href="https://github.com/abhishek0709k"
                   className=""
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Github
                 </a>
@@ -33,8 +31,8 @@ export default function Footer() {
       <div className="footer-lower">
         <span className="footer-site-data">© 2025 By Vivek singh. All right reserved.</span>
         <div className="footer-lower-links">
-          <a href="https://github.com/abhishek0709k" target="_blank" className="github-link">Github account</a>
-          <a href="https://www.linkedin.com/in/vivek-singh-b3221a329/" target="_blank" className="linkedin-link">Linked In account</a>
+          <a href="https://github.com/abhishek0709k" target="_blank" className="github-link" rel="noopener noreferrer">Github account</a>
+          <a href="https://www.linkedin.com/in/vivek-singh-b3221a329/" target="_blank" className="linkedin-link" rel="noopener noreferrer">Linked In account</a>
         </div>
         <p className="credit">Credit: Built by Vivek Singh</p>
       </div>

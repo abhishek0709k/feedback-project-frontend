@@ -42,6 +42,7 @@ function AddFeedback() {
         })
       }
     }).catch((error)=>{
+      console.log(error)
       setPopUpMessage("Error: All fields are required. Please try again.")
       setPopUp(true)
     })
