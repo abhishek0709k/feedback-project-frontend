@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router"
-import AddFeedback from "./screens/add-feedback/AddFeedback"
-import Admin from "./screens/Admin/admin"
-import GetFeedback from "./screens/Feedbacks/getFeedback"
+import AddFeedback from "./screens/add-feedback/AddFeedback.jsx"
+import Admin from "./screens/Admin/admin.jsx"
+import GetFeedback from "./screens/Feedbacks/getFeedback.jsx"
 
 export default function FeedbackCard() {
   return (

@@ -7,7 +7,7 @@ import { Textarea } from "../../components/textArea/Textarea.jsx"
 import { Switch } from "../../components/switch/Switch.jsx"
 import { ResponseCard } from "../../components/responseCard/ResponseCard.jsx"
 import axios from "axios";
-import "./AddFeedBack.css"
+import "./AddFeedback.css"
 import Navbar from '../../components/navbar/Navbar.jsx'
 import Footer from '../../components/footer/footer.jsx'
 function AddFeedback() {
