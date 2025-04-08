@@ -28,9 +28,9 @@ function AddFeedback() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    axios.post("https://feedback-project-backend.onrender.com/AddFeedBack/add-feedback", formData)
+    await axios.post("https://feedback-project-backend.onrender.com/AddFeedBack/add-feedback", formData)
     .then((response)=>{
       if(response){
         setPopUpMessage("Thanks for giving your useful feedback to us!")

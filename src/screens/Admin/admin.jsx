@@ -23,9 +23,9 @@ const Admin = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    axios.post("https://feedback-project-backend.onrender.com/AddAdmin/add-admin", formData)
+    await axios.post("https://feedback-project-backend.onrender.com/AddAdmin/add-admin", formData)
     .then((response)=>{
       if(response){
         navigate("/get-feedbacks")
