@@ -30,7 +30,7 @@ function AddFeedback() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:5000/AddFeedBack/add-feedback", formData)
+    axios.post("https://feedback-project-backend.onrender.com/AddFeedBack/add-feedback", formData)
     .then((response)=>{
       if(response){
         setPopUpMessage("Thanks for giving your useful feedback to us!")

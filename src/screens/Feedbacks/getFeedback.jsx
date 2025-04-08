@@ -6,7 +6,7 @@ import Footer from "../../components/footer/footer"
 function GetFeedback() {
   const [response, setResponse] = useState([])
   useEffect(()=>{
-    axios.get("http://localhost:5000/GetFeedBack/get-feedbacks")
+    axios.get("https://feedback-project-backend.onrender.com/GetFeedBack/get-feedbacks")
     .then((response)=>{
         setResponse(response.data)
     }).catch((error)=>{

@@ -25,7 +25,7 @@ const Admin = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:5000/AddAdmin/add-admin", formData)
+    axios.post("https://feedback-project-backend.onrender.com/AddAdmin/add-admin", formData)
     .then((response)=>{
       if(response){
         navigate("/get-feedbacks")
