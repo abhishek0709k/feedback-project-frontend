@@ -1,0 +1,92 @@
+.footer {
+    background-color: #1a1a2b;
+    color: white;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: -131px;
+  }
+  
+  .footer-upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-upper div {
+    flex: 1 1 200px;
+    margin: 0.5rem;
+  }
+  
+  .resourses {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #f9fafb;
+  }
+  
+  .home-ul,
+  .github-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .home-list,
+  .github-list {
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-list a,
+  .github-list a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .home-list a:hover,
+  .github-list a:hover {
+    color: #3b82f6; /* Blue hover */
+  }
+  
+  .hr-line {
+    border: none;
+    border-top: 1px solid #374151;
+    margin: 1rem 0;
+  }
+  
+  .footer-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-site-data {
+    font-size: 0.9rem;
+    color: #9ca3af;
+  }
+  
+  .footer-lower-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-lower-links a {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-lower-links a:hover {
+    color: #3b82f6;
+  }
+  .credit {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #9ca3af;
+    opacity: 0.7;
+  }
+  

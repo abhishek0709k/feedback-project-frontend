@@ -1,0 +1,98 @@
+/* Body background */
+body {
+    background-color: #1f2937; /* Dark Gray (same as AddFeedback background) */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  /* Card */
+  .card {
+    width: 100%;
+    max-width: 500px;
+    background-color: #1e1e2f;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+  }
+  
+  /* Card Title */
+  .feedback {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: white; /* Dark Gray Text */
+  }
+  
+  /* Form */
+  .submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Inputs */
+  .new-email-input,
+  .password-input,
+  .secret-password-input {
+    width: 100%; /* Fix the overflow issue */
+    box-sizing: border-box; /* Important to stop padding from breaking width */
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .new-email-input:focus,
+  .password-input:focus,
+  .secret-password-input:focus {
+    border-color: #3b82f6;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Popup (ResponseCard) */
+  .response-card {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .card {
+      padding: 1.5rem;
+    }
+  
+    .feedback {
+      font-size: 1.6rem;
+    }
+  }
+  
